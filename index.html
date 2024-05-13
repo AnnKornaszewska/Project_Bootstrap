@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <a class="navbar-brand">Venus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Swetry</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Golfy</a>
+                            <a href="#" class="dropdown-item">Kardigany</a>
+                            <a href="#" class="dropdown-item">Kaszmir</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Spodnie</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Jeansy</a>
+                            <a href="#" class="dropdown-item">Sztruks</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Akcesoria</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Kolczyki</a>
+                            <a href="#" class="dropdown-item">Bransoletki</a>
+                            <a href="#" class="dropdown-item">Opaski</a>
+                            <a href="#" class="dropdown-item">Skarpety</a>
+                        </div>
+                    </li>  
+                </ul>
+                <div class="btn-group ms-auto" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-cart-shopping"></i>Card</button>
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-user"></i>Account</button>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="https://i.postimg.cc/FHBpLJ1h/1.jpg" alt="image">
+                        <div class="carousel-caption">
+                            <h4 class="page-title">New Arrival</h4>
+                            <h3 class="title">Lorem Ipsum</h3>
+                            <a class="btn btn-primary" href="#">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="https://i.postimg.cc/kXhK1PCc/2.jpg" alt="image">
+                        <div class="carousel-caption"> 
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="https://i.postimg.cc/pLHh1W7K/3.jpg" alt="image">
+                        <div class="carousel-caption">
+                    </div>
+                </div>  
+                <a class="carousel-control-prev" href="#main-slider" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#main-slider" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        <header>
+        <section class="products px-5 py-5">
+            <container>
+                <div class="row">
+                    <div class="col-lg-3 pb-5">
+                        <h2>Brands</h2>
+                        <div class="list-group flex-sm-row flex-md-column">
+                            <a class="list-group-item list-group-item-action">Nulla vitae</a>
+                            <a class="list-group-item list-group-item-action">Maecenas diam</a>
+                            <a class="list-group-item list-group-item-action">Integer</a>
+                            <a class="list-group-item list-group-item-action">Cras</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <h2>New Arrivals</h2>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4 pb-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/wB7dR3fC/4.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Donec dignissim</h5>
+                                        <a class="btn btn-light">Add to card</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 pb-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/QtGnNMRk/5.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <a class="btn btn-light">Add to card</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 pb-3">
+                                <div class="card">
+                                     <div class="card-image">
+                                        <img src="https://i.postimg.cc/2SLwqDdH/6.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Quisque</h5>
+                                        <a class="btn btn-light">Add to card</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none">
+                                <div class="card">
+                                     <div class="card-image">
+                                        <img src="https://i.postimg.cc/W1mdYYsN/7.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Nam commodo</h5>
+                                        <a class="btn btn-light">Add to card</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </container>
+        </section>
+        <section class="  py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card justify-content-center align-items-center">
+                            <img src="https://i.postimg.cc/xjWW17t0/8.jpg" alt="image">
+                            <div class="card-body position-absolute">
+                                <h5>Sale</h5>
+                                <a class="btn btn-primary">See deals</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card justify-content-center align-items-center">
+                            <img src="https://i.postimg.cc/k4RTrMrW/9.jpg" alt="image">
+                            <div class="card-body position-absolute">
+                                <h5>LookBook</h5>
+                                <a class="btn btn-primary">Get inspired</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card justify-content-center align-items-center">
+                            <img src="https://i.postimg.cc/sg8WkY30/10.jpg" alt="image">
+                            <div class="card-body position-absolute">
+                                <h5>News and ideas</h5>
+                                <a class="btn btn-primary">Go to Venus blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card p-3 mb-3">
+                            <div class=row>
+                                <div class="col-md-2 d-none d-sm-block d-sm-none d-md-block">
+                                    <i class="fa-solid fa-truck pt-4 ps-3"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h3>Free shipping</h3>
+                                        <p>Donec finibus dictum finibus</p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 mb-3">
+                            <div class="row">
+                                <div class="col-md-2 d-none d-sm-block d-sm-none d-md-block">
+                                    <i class="fa-solid fa-money-bill-wave pt-4 ps-3"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h3>60-day refund</h3>
+                                        <p>Etiam pellentesque blandit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 mb-3">
+                            <div class="row">
+                                <div class="col-md-2 d-none d-sm-block d-sm-none d-md-block">
+                                    <i class="fa-solid fa-life-ring pt-4 ps-3"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h3>24/7 support</h3>
+                                        <p>Cras eu velit dolor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="newsletter pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-4 order-3 order-sm-3 order-md-1 p-2 box px-5 mb-3">
+                        <h3>NEWSLETTER</h3>
+                        <p>Aenean hendrerit neque risus</p>
+                        <form class="row gy-2 gx-3 align-items-center">
+                            <div class="col-auto">
+                                <label class="visually-hidden" for="autoSizingInput">Name</label>
+                                <input type="text" class="form-control" id="autoSizingInput" placeholder="Enter email">
+                                <p>We'll never share your email with enyone else</p>
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 order-1 order-sm-1 order-md-2 p-2 box px-5 mb-3">
+                        <h3>VENUS</h3>
+                            <p>Donec suscipit dui lorem, a malesuada tellus volutpat ac</p>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>    
+                    </div>  
+                     <div class="col-md-4 order-2 order-sm-2 order-md-3 p-2 box px-5 mb-3">
+                        <h3>Contact us</h3>
+                        <address>
+                        ulica Kościuszki 56/5/A<br>
+                        60-389 Poznań
+                        </address>
+                        <a href="https://www.venus.pl/">www.venus.pl</a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer py-3">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <a href="#">Venus Ltd.</a>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">About</a></li>
+                            <li class="list-inline-item"><a href="#">Delivery</a></li>
+                            <li class="list-inline-item"><a href="#">Returns</a></li>
+                            <li class="list-inline-item"><a href="#">Privacy policy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms and conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+        
+       
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+    </body>
+</html>
